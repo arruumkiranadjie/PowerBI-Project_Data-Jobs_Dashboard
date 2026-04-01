@@ -41,10 +41,15 @@ The Dataset is sourced from [Luke Barousse's Power BI for Data Analytics](https:
 
 ## 🧠 Analyses
 
+![Dashboard Preview](images/Project1_Page1.png)
+![Dashboard Preview](images/Project1_Page2.png)
+
 1. **Data Jobs Dashboard 1.0**
 Data Jobs Dashboard 1.0 is a two-page comprehensive report designed to give a broad, navigable view of the 2024 data job market.      It prioritizes breadth of insight through interactive **filtering and drill-through capabilities**, making it suitable for exploratory analysis across multiple dimensions simultaneously.
     - **Page 1 – Market Overview:** High-level KPIs covering total job postings, yearly and hourly median salaries, job postings             distribution by month, and comparisons between yearly and hourly salaries of the job. Slicers allow filtering by job title.
     - **Page 2 – Drill-Through Detail:** A deeper, role-specific breakdown that users access by right-clicking any job title with             Drill-Through feature. Surfaces salary distributions, job locations, schedule type, and platform prevalence for the selected          role.
+
+![Dashboard Preview](images/Project2_Page1.png)
 
 2. **Data Jobs Dashboard 2.0**
 Data Jobs Dashboard 2.0 represents a single-page interactive dashboard using **DAX Measures** and **Power Query** to transforms data that delivers the most critical market data jobs. Focusing into job title, top required skills, salaries with dynamic comparisons between yearly and hourly compensation. Slicers also available to deep through each Job Title or Job Country, and **toggle metrics between counts and percentages**. 
