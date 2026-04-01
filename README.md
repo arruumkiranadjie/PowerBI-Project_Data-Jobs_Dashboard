@@ -44,25 +44,18 @@ The Dataset is sourced from [Luke Barousse's Power BI for Data Analytics](https:
 | `monthly_files` | Multiple Excel files of job posting by month for Power Query |
 | `star_schema_files` | Multiple relational tables structured in a star schema for modeling |
 
-## 📈 Dashboards
+## 🧠 Analyses
 
-### v1 — Data Jobs Dashboard
+### Data Jobs Dashboard 1.0
 
-The first dashboard is a **two-page comprehensive report** designed to give a broad, navigable view of the 2024 data job market. It prioritizes breadth of insight through interactive filtering and drill-through capabilities, making it suitable for exploratory analysis across multiple dimensions simultaneously.
+Data Jobs Dashboard 1.0 is a two-page comprehensive report designed to give a broad, navigable view of the 2024 data job market. It prioritizes breadth of insight through interactive filtering and drill-through capabilities, making it suitable for exploratory analysis across multiple dimensions simultaneously.
 
-**Key Features:**
-- **Page 1 – Market Overview:** High-level KPIs covering total job postings, median salaries, job platform distribution, and top hiring locations. Slicers allow filtering by job title, country, schedule type, and work-from-home status.
-- **Page 2 – Drill-Through Detail:** A deeper, role-specific breakdown that users access by right-clicking any job title. Surfaces salary distributions, top required skills, and platform prevalence for the selected role.
-- **Interactive Filtering:** Cross-visual filtering and slicers enable dynamic exploration without page navigation.
+- **Page 1 – Market Overview:** High-level KPIs covering total job postings, yearly and hourly median salaries, job postings distribution by month, and comparisons between yearly and hourly salaries of the job. Slicers allow filtering by job title.
+- **Page 2 – Drill-Through Detail:** A deeper, role-specific breakdown that users access by right-clicking any job title with Drill-Through feature. Surfaces salary distributions, job locations, schedule type, and platform prevalence for the selected role.
 
-### v2 — Data Jobs Dashboard 2.0
+### Data Jobs Dashboard 2.0
 
-The second dashboard represents a deliberate evolution — trading breadth for precision. It is a **single-page focused dashboard** that delivers the most critical market signals in a clean, consolidated layout. The underlying data model was also redesigned to reflect professional-grade Power BI architecture.
-
-**Key Features:**
-- **Streamlined Single-Page Layout:** All core insights are surfaced on one page, prioritizing clarity and reducing cognitive load for the end user.
-- **Advanced DAX Measures:** Explicit measures are used throughout for median salary calculations, percentage breakdowns, and dynamic metric switching via parameters.
-- **Star Schema Data Model:** Data is structured into fact and dimension tables (`dim_jobs`, `dim_skills`, `dim_companies`, `fact_postings`), improving query performance, model maintainability, and scalability.
+Data Jobs Dashboard 2.0 represents a single-page interactive dashboard using DAX Measures and Power Query to transforms data that delivers the most critical market data jobs. Focusing into job title, top required skills, salaries with dynamic comparisons between yearly and hourly compensation. Slicers also available to deep through each Job Title or Job Country, and toggle metrics between counts and percentages. 
 
 ## 🛠️ Power BI Techniques Reference
 
@@ -84,15 +77,9 @@ The second dashboard represents a deliberate evolution — trading breadth for p
 - **Remote Work Remains Prevalent:** A substantial portion of data job postings continue to offer remote or hybrid flexibility, particularly for senior-level positions.
 - **Platform Diversity Matters:** Job postings are distributed across multiple platforms, with LinkedIn and company-direct postings accounting for the largest share of listings.
 
-## 🚀 How to Open the Dashboards
-
-To explore the dashboards, you will need **Power BI Desktop** installed on your machine (free to download from [Microsoft](https://powerbi.microsoft.com/desktop/)). Once installed, simply download the `.pbix` files from the `dashboards/` folder and open them directly in Power BI Desktop. If prompted with an "Enable Content" dialog, click to allow data connections.
-
-Should you encounter data source errors after opening, navigate to **Home → Transform Data → Data Source Settings**, update the file paths to point to your local copy of the `src/data/` folder, and refresh the model.
-
 ## 👤 About The Author
 
-**Arruum Pratistha Kiranadjie**  
+**Arruum Pratistha Kiranadjie**     
 Data Analyst | Quantitative Analyst | Operations Research Analyst
 
 Data-driven professional with a solid background in data analytics and quantitative research. Experienced in transforming complex datasets into actionable business insights using statistical methods, data visualization, and data modeling. Proven success leading end-to-end research projects across various industries. Passionate about leveraging data to drive strategic decisions and business growth.
