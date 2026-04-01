@@ -27,21 +27,22 @@ Power-BI-Portfolio_DataJobs
 │   ├── Data_Jobs_Dashboard_-_Arruum_Kiranadjie.pbix               ← Dashboard v1
 │   └── Data_Jobs_Dashboard_2_0_-_Arruum_Kiranadjie_-_v2.pbix      ← Dashboard v2
 │
-└── images                                                    ← Source Data For This Project
-    ├── Data_Jobs_Dashboard_-_Arruum_Kiranadjie.pbix               ← Dashboard v1
-    └── Data_Jobs_Dashboard_2_0_-_Arruum_Kiranadjie_-_v2.pbix      ← Dashboard v2
+└── images                                                         ← Source Data For This Project
+    ├── Project1_Page1.png                                         ← Dashboard v1 Preview
+    ├── Project1_Page2.png                                         ← Dashboard v1 Preview
+    └── Project2_Page1.png                                         ← Dashboard v2 Preview
 ```
 
 ## 📊 Dataset
 
-The dataset is sourced from [Luke Barousse's Power BI for Data Analytics Course](https://www.lukebarousse.com/courses) and consists of real-world **2024 data science job postings** scraped from major job platforms. It covers a wide range of data roles globally, including salary figures, required skills, work schedules, and job platforms.
+The Dataset is sourced from [Luke Barousse's Power BI for Data Analytics](https://drive.google.com/drive/folders/1DsLqC5OZt6fnUV8UksMhKnjWrNEG89xz) and consists of real-world **2024 Data Job Postings** scraped from major job platforms. It covers a wide range of data roles globally, including salary figures, required skills, work schedules, job posting date, and job platforms.
 
-| Table / File | Description |
+| Table | Description |
 |---|---|
-| `job_postings_flat.csv` | Single denormalized table containing all job posting attributes |
-| `job_postings_monthly.xlsx` | Multi-sheet Excel file organized by month for time series analysis |
-| `monthly_files/` | Individual monthly Excel files for folder-based batch import in Power Query |
-| `star_schema_files/` | Normalized relational tables structured as a star schema for v2 modeling |
+| `job_postings_flat` | Single denormalized table containing all job posting attributes |
+| `job_postings_monthly` | Multi-sheet Excel file organized by month for time series analysis |
+| `monthly_files` | Individual monthly Excel files for folder-based batch import in Power Query |
+| `star_schema_files` | Normalized relational tables structured as a star schema for v2 modeling |
 
 ## 📈 Dashboards
 
