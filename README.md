@@ -73,6 +73,14 @@ Data Jobs Dashboard 2.0 represents a single-page interactive dashboard using **D
 - **Remote Work Remains Prevalent:** A substantial portion of data job postings continue to offer remote or hybrid flexibility, particularly for senior-level positions.
 - **Platform Diversity Matters:** Job postings are distributed across multiple platforms, with LinkedIn and company-direct postings accounting for the largest share of listings.
 
+## 💡 Key Findings Summary
+ 
+- **Data Engineer Leads Both in Demand and Compensation:** Data Engineer postings represent the highest share of total listings in 2024 and simultaneously command the highest median salary both yearly and hourly compared to Data Scientist and Data Analyst roles. This dual dominance signals that the market is actively pricing specialized engineering skills, and that demand for data infrastructure talent has outpaced supply.
+- **Python Is the Primary Salary Lever:** Python requirements are disproportionately concentrated in higher-compensated postings, establishing it as the key technical differentiator between entry-level and senior-level data roles. Candidates who extend beyond SQL into Python meaningfully expand both their addressable job market and their salary ceiling. 
+- **SQL Is the Non-Negotiable Baseline:** SQL surfaces as a required skill across virtually every data role and seniority level, making it the single most consistent hiring signal in the dataset. Its near-universal presence positions SQL proficiency not as a differentiator, but as the minimum viable credential for market entry.
+- **LinkedIn Still Tops Across Platforms:** LinkedIn lists account for the largest volume, the distribution across LinkedIn indicates that a single-channel job search strategy creates meaningful coverage gaps for both employers and candidates.
+
+
 ## 👤 About The Author
 
 **Arruum Pratistha Kiranadjie**     
