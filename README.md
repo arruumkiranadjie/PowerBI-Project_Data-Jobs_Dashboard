@@ -7,7 +7,9 @@
 
 ## 📌 Overview
 
-*Power BI Project - Data Jobs Dashboard* provides an analytical dashboard series built to map the **2024 data job market** examining role demand, compensation benchmarks, required skills, and geographic hiring patterns across real-world job postings. The project is structured as a deliberate progression across two dashboards. **Data Jobs Dashboard 1.0** prioritizes analytical breadth, delivering a comprehensive report with **drill-through interactivity, detailed visualizations, and dynamic filtering** across job titles, platforms, and geographies. **Data Jobs Dashboard 2.0** advances the work architecturally and analytically consolidating insights into a focused, measurement dashboard powered by a **star schema data model, explicit DAX measures, and structured Power Query transformations**, reflecting the design standards expected in professional BI environments.
+*Power BI Project - Data Jobs Dashboard* provides an analytical dashboard series built to map the **2024 data job market** examining role demand, compensation benchmarks, required skills, and geographic hiring patterns across real-world job postings. The project is structured as a deliberate progression across two dashboards:
+1. **Data Jobs Dashboard 1.0** prioritizes analytical breadth, delivering a comprehensive report with **drill-through interactivity, detailed visualizations, and dynamic filtering** across job titles, platforms, and geographies.
+2. **Data Jobs Dashboard 2.0** advances the work architecturally and analytically consolidating insights into a focused, measurement dashboard powered by a **star schema data model, explicit DAX measures, and structured Power Query transformations**, reflecting the design standards expected in professional BI environments.
 
 ## 📂 Repository Structure
 
