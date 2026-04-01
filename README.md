@@ -16,7 +16,7 @@
 ## 📂 Repository Structure
 
 ```
-Power-BI-Project_DataJobs
+Power-BI-Project_Data-Jobs-Dashboard
 │
 ├── README.md                                                      ← README
 │
