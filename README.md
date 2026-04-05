@@ -79,7 +79,7 @@ Data Jobs Dashboard 2.0 represents a single-page interactive dashboard using **D
 **Arruum Pratistha Kiranadjie**     
 Data Analyst | Quantitative Analyst | Operations Research Analyst
 
-Data-driven professional with a solid background in data analytics and quantitative research. Experienced in transforming complex datasets into actionable business insights using statistical methods, data visualization, and data modeling. Proven success leading end-to-end research projects across various industries. Passionate about leveraging data to drive strategic decisions and business growth.
+Quantitative Analyst experiences in Data Analysis, Operations Research, and Quantitative Research Analysis. Proficient in Mathematical Modeling and Database Management leveraging Prediction and Optimization Algorithms to solve complex real-world problems.
 
 - [LinkedIn: Arruum Kiranadjie](https://www.linkedin.com/in/arruumkiranadjie)
 - [GitHub: Arruum Kiranadjie](https://github.com/arruumkiranadjie)
